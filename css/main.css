@@ -1,7 +1,29 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+/* font-family: "Denk One", sans-serif; */
+
+img {
+  width: 100%;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "banner banner"
+    "col1 col2"
+    "col3 col4";
+  gap: 1rem;
+}
+
+h1, h2 {
+  font-family: "Denk One", sans-serif;
 }
